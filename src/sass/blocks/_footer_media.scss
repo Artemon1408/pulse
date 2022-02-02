@@ -1,0 +1,30 @@
+@media (max-width: 575px){
+    .footer{
+        &__info{
+            width: 320px;
+            height: 214px;
+        }
+        &__addr{
+            font-size: 13px;
+            line-height: 13px;
+        }
+        &__phone{
+            margin: 18px auto;
+            font-size: 15px;
+            line-height: 15px;
+        }
+        &__social-item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 30px;
+            height: 30px;
+            padding: 0 10px;
+            img {
+                height: 15px;
+            }
+        }
+    }
+
+
+}
